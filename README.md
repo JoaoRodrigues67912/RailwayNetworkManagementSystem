@@ -1,4 +1,4 @@
-##Descrição
+## Descrição
 
 Este projeto consiste numa aplicação em linha de comandos que permite gerir uma rede ferroviária composta por:
 
@@ -10,7 +10,7 @@ O sistema suporta a criação, remoção e consulta de linhas e horários, bem c
 
 A aplicação lê comandos da entrada padrão e escreve os resultados na saída padrão, seguindo um formato rigoroso definido no enunciado do trabalho.
 
-##Funcionalidades
+## Funcionalidades
 O sistema implementa os seguintes comandos:
 
 Comando	Descrição
@@ -25,5 +25,5 @@ LC	Listagem de comboios por estação
 MH	Melhor horário entre duas estações
 TA	Terminar aplicação
 
-##Persistência de dados
+## Persistência de dados
 O estado do sistema é guardado automaticamente em disco quando a aplicação termina e carregado na execução seguinte, através de serialização em Java.
